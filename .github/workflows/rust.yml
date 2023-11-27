@@ -14,7 +14,7 @@ permissions:
 jobs:
   check:
     name: Check
-    runs-on: aws-doc-sdk-examples_ubuntu-latest_16-core
+    runs-on: ubuntu-latest
     steps:
       - name: setup
         run: >
